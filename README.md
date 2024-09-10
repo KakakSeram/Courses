@@ -1,4 +1,4 @@
-# Writeups Courses Compilation
+# Writeups Collection of Courses
  
 |No.|Name|Description|
 |---|----|-----------|
