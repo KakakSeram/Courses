@@ -1,5 +1,5 @@
-# Writeups Alibaba Cloud
+# Writeups Courses Compilation
  
 |No.|Name|Description|
 |---|----|-----------|
-|1.|[MaxCompute UDF](./MaxCompute-UDF/README.md)|user-defined functions on MaxCompute Alibaba Cloud|
+|1.|[MaxCompute UDF](./MaxCompute-UDF/README.md)|Alibaba MaxCompute user-defined functions|
