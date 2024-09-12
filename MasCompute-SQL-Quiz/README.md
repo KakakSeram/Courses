@@ -4,287 +4,192 @@
 
 1. Which of the following statements about ORDER BY and DISTRIBUTE BY/SORT BY is incorrect in the MaxCompute SQL syntax?
 
-	A. The keys of ORDER BY/SORT BY/DISTRIBUTE BY must be output columns (namely, column aliases) of SELECT statements.
-	
-	B. ORDER BY or GROUP BY cannot be used together with DISTRIBUTE BY.
-	
-	C. When ORDER BY is used for sorting, NULL is considered to be zero.
-	
+	A. The keys of ORDER BY/SORT BY/DISTRIBUTE BY must be output columns (namely, column aliases) of SELECT statements.  
+	B. ORDER BY or GROUP BY cannot be used together with DISTRIBUTE BY.  
+	C. When ORDER BY is used for sorting, NULL is considered to be zero.  
 	D. DISTRIBUTE BY performs hash-based sharding on data by values of certain columns. Aliases of SELECT output columns must be used.
+
+	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax?spm=a2c63.p38356.0.0.15f0233b5HjKct#section-49m-ve3-2su):
 
 	![01](./images/01.png)
 
+	**Answer : C**
+
 2. Which statement of the table life cycle is incorrect?
 
-	A. The unit of the life cycle time of a table is day.
-	
-	B. The data of the non-partition table will be automatically recycled after setting the day number of life cycle.
-	
-	C. We can set the lifecycle of tables or partitions.
-	
+	A. The unit of the life cycle time of a table is day.  
+	B. The data of the non-partition table will be automatically recycled after setting the day number of life cycle.  
+	C. We can set the lifecycle of tables or partitions.  
 	D. The partition table determines whether the partition should be recycled according to the last modification time of each partition.
+
+	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/product-overview/lifecycle):
 
 	![02](./images/02.png)
 
+	**Answer : C**
+
 3. Currently, MaxCompute supports specifying up to 6 small tables in a mapjoin. Otherwise, syntax errors are reported, and records for a single small table are limited to no more than 10,000.
 
-	A. True
-	
+	A. True  
 	B. False
+
+	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/product-overview/limits-4?spm=a2c63.p38356.0.0.30db1977jsoGbO)
 
 	![03](./images/03.png)
 
+	**Answer : B**
+
 4. MaxCompute SQL supports multiple data types. Which group is incorrect?
 
-	A. Tinyint, Smallint, Int, Float, Varchar
-	
-	B. Bigint, String, Double, Boolean, Decimal, Smallint
-	
-	C. Bigint, String, Double, Datetime, Link, Decimal
-	
+	A. Tinyint, Smallint, Int, Float, Varchar  
+	B. Bigint, String, Double, Boolean, Decimal, Smallint  
+	C. Bigint, String, Double, Datetime, Link, Decimal  
 	D. Tinyint, Smallint, Float, Varchar, TIMESTAMP
 
-	![04](./images/04.png)
+	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-v2-0-data-type-edition?spm=a2c63.p38356.0.0.408d4194TKeaMV)
+
+	**Answer : C**
 
 5. Which logical operation is incorrect in MaxCompute SQL?
 
-	A. NULL AND FALSE = FALSE
-	
-	B. NULL AND TRUE = NULL
-	
-	C. FALSE OR TRUE = TRUE
-	
+	A. NULL AND FALSE = FALSE  
+	B. NULL AND TRUE = NULL  
+	C. FALSE OR TRUE = TRUE  
 	D. TRUE OR NULL = TRUE
 
-	![05](./images/05.png)
+	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/operator?spm=a2c63.p38356.0.0.5d194194w56VNO#section-6r3-8ij-rx0)
+
+	**Answer = No answer (all operation is correct)**
 
 6. When you use MapJoin, which one is incorrect?
 
-	A. The left table of a 'left outer join' must be a big table.
-	
-	B. The right table of a 'right outer join' must be a big table.
-	
-	C. For INNER JOIN, both the left and right tables can be large tables.
-	
+	A. The left table of a 'left outer join' must be a big table.  
+	B. The right table of a 'right outer join' must be a big table.  
+	C. For INNER JOIN, both the left and right tables can be large tables.  
 	D. For FULL OUTER JOIN, MapJoin can be used.
+
+	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/mapjoin-hints#section-kbq-r46-ef5)
 
 	![06](./images/06.png)
 
+	**Answer : ?**
+
 7. Which description of SELECT in MaxCompute SQL is incorrect?
 
-	A. When using SELECT to read data from the table, specify the names of the columns to be read, or use an asterisk (\*) to represent all columns.
-	
-	B. When MaxCompute SQL does parsing, ORDER BY/SORT BY/DISTRIBUTE BY are in front of SELECT.
-	
-	C. The WHERE clause of MaxCompute SQL supports BETWEEN...AND conditional query.
-	
+	A. When using SELECT to read data from the table, specify the names of the columns to be read, or use an asterisk (\*) to represent all columns.  
+	B. When MaxCompute SQL does parsing, ORDER BY/SORT BY/DISTRIBUTE BY are in front of SELECT.  
+	C. The WHERE clause of MaxCompute SQL supports BETWEEN...AND conditional query.  
 	D. If duplicated data rows exist, you can use the DISTINCT option before the field to remove duplicates. In this case, only one value is returned.
 
-	![07](./images/07.png)
+	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-dcq-y11-hfb)
+
+	ORDER BY/SORT BY/DISTRIBUTE BY are behind SELECT clause
+
+	**Answer : B**
 
 8. Which statement is incorrect when updating data by MaxCompute SQL?
 
-	A. When performing insert operations, the correspondence between the source table and the target table depends on the columns order in the select clause, not on the correspondence between the column names of the tables.
-	
-	B. The value of dynamic partition cannot be NULL, but it supports special or Chinese characters.
-	
-	C. Partitioned columns are not allowed to appear in the select column list when data is inserted into a partition.
-	
+	A. When performing insert operations, the correspondence between the source table and the target table depends on the columns order in the select clause, not on the correspondence between the column names of the tables.  
+	B. The value of dynamic partition cannot be NULL, but it supports special or Chinese characters.  
+	C. Partitioned columns are not allowed to appear in the select column list when data is inserted into a partition.  
 	D. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table.
 
 	![08](./images/08.png)
 
+	**Answer : ?**
+
 9. During MaxCompute SQL parsing, ORDER BY/SORT BY/DISTRIBUTE BY is behind the SELECT operation.
 
 	A. True
-	
 	B. False
 
-	![09](./images/09.png)
+	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-dcq-y11-hfb)
+
+	**Answer : A**
 
 10. Data type inconsistency is often encountered in business data processing. In order to keep data type consistent, data processing systems involve data type conversion. If MaxCompute SQL is used for data processing, which of the following conversions cannot be achieved?
 
-	A. Bigint to String
-	
-	B. String to Boolean
-	
-	C. String to Bigint
-	
+	A. Bigint to String  
+	B. String to Boolean  
+	C. String to Bigint  
 	D. Datetime to String
 
-	![16](./images/16.png)
+	**Answer : B**
 
 11. When you have multiple tables join, it only allows one leftmost table to be a mapjoin table.
 
-	A. True
-	
+	A. True  
 	B. False
 	
 	![17](./images/17.png)
 
-12. Which statement of the table life cycle is incorrect?
+	**Answer : A**
 
-	A. The unit of the life cycle time of a table is day.
-	
-	B. The data of the non-partition table will be automatically recycled after setting the day number of life cycle.
-	
-	C. We can set the lifecycle of tables or partitions.
-	
-	D. The partition table determines whether the partition should be recycled according to the last modification time of each partition.
+12. Which statement is incorrect for the dynamic partition in MaxCompute SQL?
 
-	![18](./images/18.png)
-
-13. Which statement is incorrect for the dynamic partition in MaxCompute SQL?
-
-	A. If the destination table has multi-level partitions, it is allowed to specify parts of partitions to be static partitions through the INSERT statement, but the static partitions must be advanced partitions. 
-	
-	B. The value of dynamic partition can be special characters.
-	
-	C. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table.
-	
+	A. If the destination table has multi-level partitions, it is allowed to specify parts of partitions to be static partitions through the INSERT statement, but the static partitions must be advanced partitions.  
+	B. The value of dynamic partition can be special characters.  
+	C. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table.  
 	D. The value of dynamic partition cannot be NULL.
 
 	![19](./images/19.png)
 
-14. During MaxCompute SQL parsing, ORDER BY/SORT BY/DISTRIBUTE BY is behind the SELECT operation.
+	**Answer : ?**
 
-	A. True
-	
+13. MaxCompute SQL syntax does not support BETWEEN conditional queries.
+
+	A. True  
 	B. False
 
-	![20](./images/20.png)
+	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-lwx-cv2-ggb)
 
-15. When you use MapJoin, which one is incorrect?
-
-	A. The left table of a 'left outer join' must be a big table.
-	
-	B. The right table of a 'right outer join' must be a big table.
-	
-	C. For INNER JOIN, both the left and right tables can be large tables.
-	
-	D. For FULL OUTER JOIN, MapJoin can be used.
-	
-	![21](./images/21.png)
-
-16. MaxCompute SQL syntax does not support BETWEEN conditional queries.
-
-	A. True
-	
-	B. False
-	
 	![22](./images/22.png)
 
-17. Which description of SELECT in MaxCompute SQL is incorrect?
+	**Answer : B**
 
-	A. When using SELECT to read data from the table, specify the names of the columns to be read, or use an asterisk (\*) to represent all columns. 
-	
-	B. When MaxCompute SQL does parsing, ORDER BY/SORT BY/DISTRIBUTE BY are in front of SELECT.
-	
-	C. The WHERE clause of MaxCompute SQL supports BETWEEN...AND conditional query.
-	
-	D. If duplicated data rows exist, you can use the DISTINCT option before the field to remove duplicates. In this case, only one value is returned.
-	
-	![23](./images/23.png)
+14. Which of the following MaxCompute SQL syntax is incorrect?
 
-18. MaxCompute SQL syntax does not support BETWEEN conditional queries.
-
-	A. True
-	
-	B. False
-	
-	![29](./images/29.png)
-
-19. Which of the following MaxCompute SQL syntax is incorrect?
-
-	A. SELECT a.shop_name AS ashop, b.shop_name AS bshop FROM shop a RIGHT OUTER JOIN sale_detail b ON a.shop_name = b.shop_name;
-	
-	B. SELECT a.shop_name AS ashop, b.shop_name AS bshop FROM shop a FULL OUTER JOIN sale_detail b ON a.shop_name = b.shop_name;
-	
-	C. SELECT * FROM table1, table2 WHERE table1.id = table2.id;
-	
+	A. SELECT a.shop_name AS ashop, b.shop_name AS bshop FROM shop a RIGHT OUTER JOIN sale_detail b ON a.shop_name = b.shop_name;  
+	B. SELECT a.shop_name AS ashop, b.shop_name AS bshop FROM shop a FULL OUTER JOIN sale_detail b ON a.shop_name = b.shop_name;  
+	C. SELECT * FROM table1, table2 WHERE table1.id = table2.id;  
 	D. SELECT a.shop_name AS ashop, b.shop_name AS bshop FROM shop a INNER JOIN sale_detail b;
 	
 	![30](./images/30.png)
 
-20. Which statement is incorrect for view in MaxCompute SQL?
+	**Answer : ?**
 
-	A. To create a view, you must have 'read' privilege on the table referenced by view.
-	
-	B. Other views can be referenced by a view. Circular reference is supported.
-	
-	C. Views can only contain one valid 'select' statement.
-	
+15. Which statement is incorrect for view in MaxCompute SQL?
+
+	A. To create a view, you must have 'read' privilege on the table referenced by view.  
+	B. Other views can be referenced by a view. Circular reference is supported.  
+	C. Views can only contain one valid 'select' statement.  
 	D. Writing the data into a view is not allowed, such as, using 'insert into' or 'insert overwrite' to operate view
 	
+	Explaination:
+
 	![31](./images/31.png)
 
-21. The source and pattern parameters of LIKE and RLIKE must be string types or integer.
+	**Answer : B**
 
-	A. True
-	
+16. The source and pattern parameters of LIKE and RLIKE must be string types or integer.
+
+	A. True  
 	B. False
 	
-	![32](./images/32.png)
+	Explaination: Only string 
 
-22. Which statement is incorrect for the dynamic partition in MaxCompute SQL?
+	**Answer : B**
 
-	A. If the destination table has multi-level partitions, it is allowed to specify parts of partitions to be static partitions through the INSERT statement, but the static partitions must be advanced partitions.
-	
-	B. The value of dynamic partition can be special characters.
-	
-	C. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table. 
-	
-	D. The value of dynamic partition cannot be NULL.
-	
-	![33](./images/33.png)
+17. Which statement is incorrect for partition in MaxCompute SQL?
 
-23. Which description of SELECT in MaxCompute SQL is incorrect?
-
-	A. When using SELECT to read data from the table, specify the names of the columns to be read, or use an asterisk (\*) to represent all columns. 
-	
-	B. When MaxCompute SQL does parsing, ORDER BY/SORT BY/DISTRIBUTE BY are in front of SELECT.
-	
-	C. The WHERE clause of MaxCompute SQL supports BETWEEN...AND conditional query.
-	
-	D. If duplicated data rows exist, you can use the DISTINCT option before the field to remove duplicates. In this case, only one value is returned.
-	
-	![34](./images/34.png)
-
-24. Which statement is incorrect for partition in MaxCompute SQL?
-
-	A. To modify values in one or more partitions among multi-level partitions, users must write values for partitions at each level.
-	
-	B. We cannot specify order for a new column. By default, a new column is placed in the last column.
-	
-	C. The name of a partition column can be modified.
-	
+	A. To modify values in one or more partitions among multi-level partitions, users must write values for partitions at each level.  
+	B. We cannot specify order for a new column. By default, a new column is placed in the last column.  
+	C. The name of a partition column can be modified.  
 	D. For tables that have multi-level partitions, to add a new partition, all partition values must be specified.
 	
 	![35](./images/35.png)
 
-25. Which statement of the table life cycle is incorrect?
-
-	A. The unit of the life cycle time of a table is day.
-	
-	B. The data of the non-partition table will be automatically recycled after setting the day number of life cycle.
-	
-	C. We can set the lifecycle of tables or partitions.
-	
-	D. The partition table determines whether the partition should be recycled according to the last modification time of each partition.
-	
-	![36](./images/36.png)
-
-26. Which statement is incorrect for partition in MaxCompute SQL?
-
-	A. To modify values in one or more partitions among multi-level partitions, users must write values for partitions at each level.
-	
-	B. We cannot specify order for a new column. By default, a new column is placed in the last column.
-	
-	C. The name of a partition column can be modified.
-	
-	D. For tables that have multi-level partitions, to add a new partition, all partition values must be specified.
-	
-	![42](./images/42.png)
+	**Answer : ?**
 
 ## Multiple Answer
 
