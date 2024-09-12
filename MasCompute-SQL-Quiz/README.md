@@ -9,9 +9,9 @@
 	C. When ORDER BY is used for sorting, NULL is considered to be zero.  
 	D. DISTRIBUTE BY performs hash-based sharding on data by values of certain columns. Aliases of SELECT output columns must be used.
 
-	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax?spm=a2c63.p38356.0.0.15f0233b5HjKct#section-49m-ve3-2su):
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax?spm=a2c63.p38356.0.0.15f0233b5HjKct#section-49m-ve3-2su)
 
-	![01](./images/01.png)
+	![01a](./images/01a.png)
 
 	**Answer : C**
 
@@ -22,9 +22,9 @@
 	C. We can set the lifecycle of tables or partitions.  
 	D. The partition table determines whether the partition should be recycled according to the last modification time of each partition.
 
-	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/product-overview/lifecycle):
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/product-overview/lifecycle)
 
-	![02](./images/02.png)
+	![02a](./images/02a.png)
 
 	**Answer : C**
 
@@ -33,9 +33,9 @@
 	A. True  
 	B. False
 
-	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/product-overview/limits-4?spm=a2c63.p38356.0.0.30db1977jsoGbO)
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/product-overview/limits-4?spm=a2c63.p38356.0.0.30db1977jsoGbO)
 
-	![03](./images/03.png)
+	![03a](./images/03a.png)
 
 	**Answer : B**
 
@@ -46,7 +46,7 @@
 	C. Bigint, String, Double, Datetime, Link, Decimal  
 	D. Tinyint, Smallint, Float, Varchar, TIMESTAMP
 
-	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-v2-0-data-type-edition?spm=a2c63.p38356.0.0.408d4194TKeaMV)
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-v2-0-data-type-edition?spm=a2c63.p38356.0.0.408d4194TKeaMV)
 
 	**Answer : C**
 
@@ -57,7 +57,7 @@
 	C. FALSE OR TRUE = TRUE  
 	D. TRUE OR NULL = TRUE
 
-	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/operator?spm=a2c63.p38356.0.0.5d194194w56VNO#section-6r3-8ij-rx0)
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/operator?spm=a2c63.p38356.0.0.5d194194w56VNO#section-6r3-8ij-rx0)
 
 	**Answer = No answer (all operation is correct)**
 
@@ -68,11 +68,11 @@
 	C. For INNER JOIN, both the left and right tables can be large tables.  
 	D. For FULL OUTER JOIN, MapJoin can be used.
 
-	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/mapjoin-hints#section-kbq-r46-ef5)
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/mapjoin-hints#section-kbq-r46-ef5)
 
-	![06](./images/06.png)
+	![06a](./images/06a.png)
 
-	**Answer : ?**
+	**Answer : D**
 
 7. Which description of SELECT in MaxCompute SQL is incorrect?
 
@@ -81,7 +81,7 @@
 	C. The WHERE clause of MaxCompute SQL supports BETWEEN...AND conditional query.  
 	D. If duplicated data rows exist, you can use the DISTINCT option before the field to remove duplicates. In this case, only one value is returned.
 
-	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-dcq-y11-hfb)
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-dcq-y11-hfb)
 
 	ORDER BY/SORT BY/DISTRIBUTE BY are behind SELECT clause
 
@@ -94,7 +94,7 @@
 	C. Partitioned columns are not allowed to appear in the select column list when data is inserted into a partition.  
 	D. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table.
 
-	![08](./images/08.png)
+	![08a](./images/08a.png)
 
 	**Answer : ?**
 
@@ -103,7 +103,7 @@
 	A. True
 	B. False
 
-	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-dcq-y11-hfb)
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-dcq-y11-hfb)
 
 	**Answer : A**
 
@@ -114,14 +114,20 @@
 	C. String to Bigint  
 	D. Datetime to String
 
+	Explaination:
+
+	![10a](./images/10a.png)
+
 	**Answer : B**
 
 11. When you have multiple tables join, it only allows one leftmost table to be a mapjoin table.
 
 	A. True  
 	B. False
+
+	Explaination:
 	
-	![17](./images/17.png)
+	![11a](./images/11a.png)
 
 	**Answer : A**
 
@@ -132,7 +138,7 @@
 	C. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table.  
 	D. The value of dynamic partition cannot be NULL.
 
-	![19](./images/19.png)
+	![12a](./images/12a.png)
 
 	**Answer : ?**
 
@@ -141,9 +147,9 @@
 	A. True  
 	B. False
 
-	[Explaination](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-lwx-cv2-ggb)
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-lwx-cv2-ggb)
 
-	![22](./images/22.png)
+	![13a](./images/13a.png)
 
 	**Answer : B**
 
@@ -154,7 +160,7 @@
 	C. SELECT * FROM table1, table2 WHERE table1.id = table2.id;  
 	D. SELECT a.shop_name AS ashop, b.shop_name AS bshop FROM shop a INNER JOIN sale_detail b;
 	
-	![30](./images/30.png)
+	![14a](./images/14a.png)
 
 	**Answer : ?**
 
@@ -167,7 +173,7 @@
 	
 	Explaination:
 
-	![31](./images/31.png)
+	![15a](./images/15a.png)
 
 	**Answer : B**
 
@@ -187,7 +193,7 @@
 	C. The name of a partition column can be modified.  
 	D. For tables that have multi-level partitions, to add a new partition, all partition values must be specified.
 	
-	![35](./images/35.png)
+	![17a](./images/17a.png)
 
 	**Answer : ?**
 
@@ -195,205 +201,152 @@
 
 1. Which of the following descriptions about the MaxCompute SQL constraint conditions are correct?
 
-	A. MaxCompute SQL does not support transactions.
-	
-	B. MaxCompute SQL does not support indexes.
-	
-	C. MaxCompute SQL supports delete operations.
-	
+	A. MaxCompute SQL does not support transactions.  
+	B. MaxCompute SQL does not support indexes.  
+	C. MaxCompute SQL supports delete operations.  
 	D. MaxCompute SQL does not support update operations.
 
-	![10](./images/10.png)
+	Explaination:
+
+	![01b](./images/01b.png)
+
+	**Answer : A, B & D**
+
+2. Which of the following statements of mapjoin Hint application of MaxCompute SQL are correct?
+
+	A. When a large table joins one or multiple small tables, you can use MapJoin, which performs much faster than regular joins.  
+	B. When MapJoin references to a small table or subquery, alias should be referenced.  
+	C. MaxCompute SQL does not support the use of complex Join conditions such as unequal expressions, or logic in normal Join's on condition, but in MapJoin it can.  
+	D. When doing multiple table joins, the two left tables can be MapJoin tables at the same time.
+	
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/mapjoin-hints?spm=a2c63.p38356.0.0.6ea648e0e9ht84)
+
+	![02b](./images/02b.png)
+
+	**Answer : A, B, C**
 
 
-2. Which of the following statements are correct?
-
-	A. "ORDER BY" must be used together with "LIMIT".
-	
-	B. When sorting with "ORDER BY", NULL is considered smaller than any value.
-	
-	C. DISTRIBUTE BY is to make hash slices of data according to the values of a certain column. It is similar to GROUP BY.
-	
-	D. SORT BY and ORDER BY are all used for sorting in essence, the difference is that the scope is not the same.
-	
-	E. The key of ORDER BY or SORT BY must be the output column of the SELECT sentences, that is, the alias of the column.
-
-	![11](./images/11.png)
 
 3. Which of the following MaxCompute SQL syntax statements are correct?
 
-	A. JOIN of MaxCompute supports n-way join, but it must be a non-Cartesian product.
-	
-	B. The indirect expression of MaxCompute's JOIN must be an equation expression.
-	
-	C. When mapjoin references to a small table or subquery, alias should be referenced, otherwise it will report syntax errors.
-	
+	A. JOIN of MaxCompute supports n-way join, but it must be a non-Cartesian product.  
+	B. The indirect expression of MaxCompute's JOIN must be an equation expression.  
+	C. When mapjoin references to a small table or subquery, alias should be referenced, otherwise it will report syntax errors.  
 	D. Right outer join returns all records in the right table, even if there is no matched record in the left table.
 
-	![12](./images/12.png)
+	**Answer : ?**
 
 4. Which UNION ALL statements in MaxCompute SQL are correct?
 
-	A. Combines two or multiple data sets returned by a SELECT operation into one data set. If the result contains duplicated rows, all rows that meet the conditions are returned, and deduplication of duplicated rows is not applied.
-	
-	B. MaxCompute does not support union two main query results, but you can do it on two subquery results.
-	
-	C. The columns of each subquery corresponding to the UNION ALL operation must be listed, not supporting \*.
-	
+	A. Combines two or multiple data sets returned by a SELECT operation into one data set. If the result contains duplicated rows, all rows that meet the conditions are returned, and deduplication of duplicated rows is not applied.  
+	B. MaxCompute does not support union two main query results, but you can do it on two subquery results.  
+	C. The columns of each subquery corresponding to the UNION ALL operation must be listed, not supporting \*.  
 	D. The number, names, and types of queried columns corresponding to the UNION ALL/UNION operation must be consistent.
 
-	![13](./images/13.png)
+	**Answer : ?**
 
 5. Which of the following statements of mapjoin Hint application of MaxCompute SQL are correct?
 
-	A. When a large table joins one or multiple small tables, you can use MapJoin, which performs much faster than regular joins.
-	
-	B. When MapJoin references to a small table or subquery, alias should be referenced.
-	
-	C. MaxCompute SQL does not support the use of complex Join conditions such as unequal expressions, or logic in normal Join's on condition, but in MapJoin it can.
-	
+	A. When a large table joins one or multiple small tables, you can use MapJoin, which performs much faster than regular joins.  
+	B. When MapJoin references to a small table or subquery, alias should be referenced.  
+	C. MaxCompute SQL does not support the use of complex Join conditions such as unequal expressions, or logic in normal Join's on condition, but in MapJoin it can.  
 	D. When doing multiple table joins, the two left tables can be MapJoin tables at the same time.
 
-	![14](./images/14.png)
+	**Answer : ?**
 
 6. MaxCompute SQL provides the EXPLAIN operation. What does the execution result include?
 
-	A. All resource structures corresponding to the DML sentence.
-	
-	B. The dependency structure of all Tasks corresponding to the DML sentence.
-	
-	C. The dependency structure of all Operators in a Task.
-	
+	A. All resource structures corresponding to the DML sentence.  
+	B. The dependency structure of all Tasks corresponding to the DML sentence.  
+	C. The dependency structure of all Operators in a Task.  
 	D. The dependency structure of all Tasks in a Task.
 
-	![15](./images/15.png)
+	**Answer : ?**
 
 7. MaxCompute SQL provides the EXPLAIN operation. What does the execution result include?
 
-	A. All resource structures corresponding to the DML sentence.
-	
-	B. The dependency structure of all Tasks corresponding to the DML sentence.
-	
-	C. The dependency structure of all Operators in a Task.
-	
+	A. All resource structures corresponding to the DML sentence.  
+	B. The dependency structure of all Tasks corresponding to the DML sentence.  
+	C. The dependency structure of all Operators in a Task.  
 	D. The dependency structure of all Tasks in a Task.
 	
-	![24](./images/24.png)
+	**Answer : ?**
 
 8. Which of the following statements are correct?
 
-	A. "ORDER BY" must be used together with "LIMIT".
-	
-	B. When sorting with "ORDER BY", NULL is considered smaller than any value.
-	
-	C. DISTRIBUTE BY is to make hash slices of data according to the values of a certain column. It is similar to GROUP BY.
-	
-	D. SORT BY and ORDER BY are all used for sorting in essence, the difference is that the scope is not the same.
-	
+	A. "ORDER BY" must be used together with "LIMIT".  
+	B. When sorting with "ORDER BY", NULL is considered smaller than any value.  
+	C. DISTRIBUTE BY is to make hash slices of data according to the values of a certain column. It is similar to GROUP BY.  
+	D. SORT BY and ORDER BY are all used for sorting in essence, the difference is that the scope is not the same.  
 	E. The key of ORDER BY or SORT BY must be the output column of the SELECT sentences, that is, the alias of the column.
 	
-	![25](./images/25.png)
+	**Answer : ?**
 
 9. Group by is for group query in MaxCompute SQL. Which of the following queries of Group by are correct?
 
-	A. Generally "group by" and aggregate functions are used together.
-	
-	B. The key of "group by" can be the column name of the input table.
-	
-	C. When SELECT contains aggregate functions, "group by" can be an expression consisting of columns of input tables.
-	
+	A. Generally "group by" and aggregate functions are used together.  
+	B. The key of "group by" can be the column name of the input table.  
+	C. When SELECT contains aggregate functions, "group by" can be an expression consisting of columns of input tables.  
 	D. When SELECT contains aggregate functions, "group by" can be the alias of the output column of the SELECT statement.
 	
-	![26](./images/26.png)
+	**Answer : ?**
 
 10. Which of the following queries can be executed?
 
-	A. SELECT SUM(total_price) FROM sale_detail GROUP BY region;
-	
-	B. ELECT region AS r FROM sale_detail GROUP BY r;
-	
-	C. SELECT region, total_price FROM sale_detail GROUP BY region, total_price;
-	
-	D. SELECT region AS r FROM sale_detail ORDER BY region LIMIT 100;
-	
+	A. SELECT SUM(total_price) FROM sale_detail GROUP BY region;  
+	B. ELECT region AS r FROM sale_detail GROUP BY r;  
+	C. SELECT region, total_price FROM sale_detail GROUP BY region, total_price;  
+	D. SELECT region AS r FROM sale_detail ORDER BY region LIMIT 100;  
 	E. SELECT region AS r FROM sale_detail DISTRIBUTE BY region;
 	
-	![27](./images/27.png)
+	**Answer : ?**
 
 11. Which JOIN operations in MaxCompute SQL are correct?
 
-	A. MaxCompute's JOIN supports multiple links, and it also supports Cartesian product.
-	
-	B. Left join returns all records from the left table.
-	
-	C. Right outer join returns all records from the right table.
-	
+	A. MaxCompute's JOIN supports multiple links, and it also supports Cartesian product.  
+	B. Left join returns all records from the left table.  
+	C. Right outer join returns all records from the right table.  
 	D. Full outer join indicates the full join and returns all records from both the left and right tables.
-	
-	![28](./images/28.png)
 
+	**Answer : ?**
 
-12. Which of the following queries can be executed?
+12. Which UNION ALL statements in MaxCompute SQL are correct?
 
-	A. SELECT SUM(total_price) FROM sale_detail GROUP BY region;
-	
-	B. ELECT region AS r FROM sale_detail GROUP BY r;
-	
-	C. SELECT region, total_price FROM sale_detail GROUP BY region, total_price;
-	
-	D. SELECT region AS r FROM sale_detail ORDER BY region LIMIT 100;
-	
-	E. SELECT region AS r FROM sale_detail DISTRIBUTE BY region;
-	
-	![37](./images/37.png)
-
-13. Which UNION ALL statements in MaxCompute SQL are correct?
-
-	A. Combines two or multiple data sets returned by a SELECT operation into one data set. If the result contains duplicated rows, all rows that meet the conditions are returned, and deduplication of duplicated rows is not applied.
-	
-	B. MaxCompute does not support union two main query results, but you can do it on two subquery results.
-	
-	C. The columns of each subquery corresponding to the UNION ALL operation must be listed, not supporting \*.
-	
+	A. Combines two or multiple data sets returned by a SELECT operation into one data set. If the result contains duplicated rows, all rows that meet the conditions are returned, and deduplication of duplicated rows is not applied.  
+	B. MaxCompute does not support union two main query results, but you can do it on two subquery results.  
+	C. The columns of each subquery corresponding to the UNION ALL operation must be listed, not supporting \*.  
 	D. The number, names, and types of queried columns corresponding to the UNION ALL/UNION operation must be consistent.
 	
-	![38](./images/38.png)
+	**Answer : ?**
 
-14. Group by is for group query in MaxCompute SQL. Which of the following queries of Group by are correct?
+13. Group by is for group query in MaxCompute SQL. Which of the following queries of Group by are correct?
 
-	A. Generally "group by" and aggregate functions are used together.
-	
-	B. The key of "group by" can be the column name of the input table.
-	
-	C. When SELECT contains aggregate functions, "group by" can be an expression consisting of columns of input tables.
-	
+	A. Generally "group by" and aggregate functions are used together.  
+	B. The key of "group by" can be the column name of the input table.  
+	C. When SELECT contains aggregate functions, "group by" can be an expression consisting of columns of input tables.  
 	D. When SELECT contains aggregate functions, "group by" can be the alias of the output column of the SELECT statement.
-	
-	![39](./images/39.png)
 
-15. Which of the following limitations in MaxCompute SQL are correct?
+	**Answer : ?**
 
-	A. Table name length
-	
-	B. Table column definition
-	
-	C. Table partition level and single table partition number
-	
-	D. Window function number
-	
+14. Which of the following limitations in MaxCompute SQL are correct?
+
+	A. Table name length  
+	B. Table column definition  
+	C. Table partition level and single table partition number  
+	D. Window function number  
 	E. Table name and field definition case
 	
-	![40](./images/40.png)
+	**Answer : ?**
 
-16. Which of the following statements of mapjoin Hint application of MaxCompute SQL are correct?
+15. Which of the following statements are correct?
 
-	A. When a large table joins one or multiple small tables, you can use MapJoin, which performs much faster than regular joins.
-	
-	B. When MapJoin references to a small table or subquery, alias should be referenced.
-	
-	C. MaxCompute SQL does not support the use of complex Join conditions such as unequal expressions, or logic in normal Join's on condition, but in MapJoin it can.
-	
-	D. When doing multiple table joins, the two left tables can be MapJoin tables at the same time.
-	
-	![41](./images/41.png)
+	A. "ORDER BY" must be used together with "LIMIT".  
+	B. When sorting with "ORDER BY", NULL is considered smaller than any value.  
+	C. DISTRIBUTE BY is to make hash slices of data according to the values of a certain column. It is similar to GROUP BY.  
+	D. SORT BY and ORDER BY are all used for sorting in essence, the difference is that the scope is not the same.  
+	E. The key of ORDER BY or SORT BY must be the output column of the SELECT sentences, that is, the alias of the column.
+
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax?spm=a2c63.p38356.0.0.3cdf233b6vJGDj)
+
+	**Answer : A, C, D ..?**
 
