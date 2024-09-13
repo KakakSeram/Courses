@@ -203,6 +203,19 @@
 
 	**Answer : C**
 
+18. Which calculation is incorrect in MaxCompute SQL?
+
+	A. If A or B is NULL, A+B returns NULL; otherwise, returns A + B.
+	B. If A or B is NULL, A\*B returns NULL; otherwise, returns A * B.
+	C. axb like a%b = TRUE
+	D. A % B: If A or B is NULL, return NULL; otherwise, return the result of A mod B.
+
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/operator?spm=a2c63.p38356.0.0.201b23b5MM2Dd7#section-ycc-chl-vdb)
+
+	![18a](./images/18a.png)
+	
+	**Answer : C**
+
 ## Multiple Answer
 
 1. Which of the following descriptions about the MaxCompute SQL constraint conditions are correct?
