@@ -159,8 +159,6 @@
 	B. SELECT a.shop_name AS ashop, b.shop_name AS bshop FROM shop a FULL OUTER JOIN sale_detail b ON a.shop_name = b.shop_name;  
 	C. SELECT * FROM table1, table2 WHERE table1.id = table2.id;  
 	D. SELECT a.shop_name AS ashop, b.shop_name AS bshop FROM shop a INNER JOIN sale_detail b;
-	
-	![14a](./images/14a.png)
 
 	**Answer : ?**
 
@@ -192,8 +190,6 @@
 	B. We cannot specify order for a new column. By default, a new column is placed in the last column.  
 	C. The name of a partition column can be modified.  
 	D. For tables that have multi-level partitions, to add a new partition, all partition values must be specified.
-	
-	![17a](./images/17a.png)
 
 	**Answer : ?**
 
