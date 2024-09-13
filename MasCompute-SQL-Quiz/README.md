@@ -94,7 +94,11 @@
 	C. Partitioned columns are not allowed to appear in the select column list when data is inserted into a partition.  
 	D. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table.
 
-	**Answer : ?**
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/insert-or-overwrite-data-into-dynamic-partitions#section-1nx-q2d-xga)
+	
+	![12a](./images/12a.png)
+
+	**Answer : B**
 
 9. During MaxCompute SQL parsing, ORDER BY/SORT BY/DISTRIBUTE BY is behind the SELECT operation.
 
@@ -136,7 +140,11 @@
 	C. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table.  
 	D. The value of dynamic partition cannot be NULL.
 
-	**Answer : ?**
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/insert-or-overwrite-data-into-dynamic-partitions#section-1nx-q2d-xga)
+	
+	![12a](./images/12a.png)
+
+	**Answer : B**
 
 13. MaxCompute SQL syntax does not support BETWEEN conditional queries.
 
@@ -156,7 +164,9 @@
 	C. SELECT * FROM table1, table2 WHERE table1.id = table2.id;  
 	D. SELECT a.shop_name AS ashop, b.shop_name AS bshop FROM shop a INNER JOIN sale_detail b;
 
-	**Answer : ?**
+	Explaination: Missing ON statement
+
+	**Answer : D?**
 
 15. Which statement is incorrect for view in MaxCompute SQL?
 
@@ -187,7 +197,11 @@
 	C. The name of a partition column can be modified.  
 	D. For tables that have multi-level partitions, to add a new partition, all partition values must be specified.
 
-	**Answer : ?**
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/partition-and-column-operations-1#section-lrr-ycb-wdb)
+
+	![17a](./images/17a.png)
+
+	**Answer : C**
 
 ## Multiple Answer
 
@@ -242,16 +256,18 @@
 	C. Right outer join returns all records from the right table.  
 	D. Full outer join indicates the full join and returns all records from both the left and right tables.
 
-	**Answer : ?**
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/join)
+
+	**Answer : B, C & D**
 
 6. MaxCompute SQL provides the EXPLAIN operation. What does the execution result include?
 
 	A. All resource structures corresponding to the DML sentence.  
 	B. The dependency structure of all Tasks corresponding to the DML sentence.  
-	C. The dependency structure of all Operators in a Task.  
-	D. The dependency structure of all Tasks in a Task.
+	C. The dependency structure of all Operators in a Task.(TRUE)  
+	D. The dependency structure of all Tasks in a Task.(TRUE)
 
-	**Answer : ?**
+	**Answer : C & D?**
 
 7. Which of the following limitations in MaxCompute SQL are correct?
 
@@ -261,7 +277,9 @@
 	D. Window function number  
 	E. Table name and field definition case
 	
-	**Answer : ?**
+	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/maxcompute-sql-limits)
+
+	**Answer : A, B & C**
 
 8. Which of the following statements are correct?
 
@@ -285,7 +303,7 @@
 10. Which of the following queries can be executed?
 
 	A. SELECT SUM(total_price) FROM sale_detail GROUP BY region;  
-	B. ELECT region AS r FROM sale_detail GROUP BY r;  
+	B. SELECT region AS r FROM sale_detail GROUP BY r;  
 	C. SELECT region, total_price FROM sale_detail GROUP BY region, total_price;  
 	D. SELECT region AS r FROM sale_detail ORDER BY region LIMIT 100;  
 	E. SELECT region AS r FROM sale_detail DISTRIBUTE BY region;
