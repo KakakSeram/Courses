@@ -1,4 +1,4 @@
-# Alibaba Cloud MasCompute SQL Quiz Compilation
+# Alibaba Cloud MaxCompute SQL Quiz Compilation
 
 ## Single Answer
 
