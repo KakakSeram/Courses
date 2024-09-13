@@ -4,3 +4,4 @@
 |---|----|-----------|
 |1.|[MaxCompute UDF](./MaxCompute-UDF/README.md)|Alibaba MaxCompute user-defined functions|
 |2.|[MasCompute SQL Quiz](./MasCompute-SQL-Quiz/README.md)|Alibaba MaxCompute SQL Quiz Compilation|
+|3.|[MaxCompute UDF Quiz](./MaxCompute-UDF-Quiz/README.md)|Alibaba MaxCompute UDF Quiz Compilation|
