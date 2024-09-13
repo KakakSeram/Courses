@@ -94,8 +94,6 @@
 	C. Partitioned columns are not allowed to appear in the select column list when data is inserted into a partition.  
 	D. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table.
 
-	![08a](./images/08a.png)
-
 	**Answer : ?**
 
 9. During MaxCompute SQL parsing, ORDER BY/SORT BY/DISTRIBUTE BY is behind the SELECT operation.
@@ -137,8 +135,6 @@
 	B. The value of dynamic partition can be special characters.  
 	C. In the select statement field, the following field provides a dynamic partition value for the target table. If the target table has only one-level dynamic partition, the last field value of the select statement is the dynamic partition value of the target table.  
 	D. The value of dynamic partition cannot be NULL.
-
-	![12a](./images/12a.png)
 
 	**Answer : ?**
 
