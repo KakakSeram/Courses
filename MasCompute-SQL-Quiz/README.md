@@ -1,4 +1,4 @@
-# MasCompute SQL Quiz Compilation
+# Alibaba Cloud MasCompute SQL Quiz Compilation
 
 ## Single Answer
 
@@ -100,7 +100,7 @@
 
 9. During MaxCompute SQL parsing, ORDER BY/SORT BY/DISTRIBUTE BY is behind the SELECT operation.
 
-	A. True
+	A. True  
 	B. False
 
 	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax#section-dcq-y11-hfb)
@@ -221,8 +221,6 @@
 
 	**Answer : A, B, C**
 
-
-
 3. Which of the following MaxCompute SQL syntax statements are correct?
 
 	A. JOIN of MaxCompute supports n-way join, but it must be a non-Cartesian product.  
@@ -241,12 +239,12 @@
 
 	**Answer : ?**
 
-5. Which of the following statements of mapjoin Hint application of MaxCompute SQL are correct?
+5. Which JOIN operations in MaxCompute SQL are correct?
 
-	A. When a large table joins one or multiple small tables, you can use MapJoin, which performs much faster than regular joins.  
-	B. When MapJoin references to a small table or subquery, alias should be referenced.  
-	C. MaxCompute SQL does not support the use of complex Join conditions such as unequal expressions, or logic in normal Join's on condition, but in MapJoin it can.  
-	D. When doing multiple table joins, the two left tables can be MapJoin tables at the same time.
+	A. MaxCompute's JOIN supports multiple links, and it also supports Cartesian product.  
+	B. Left join returns all records from the left table.  
+	C. Right outer join returns all records from the right table.  
+	D. Full outer join indicates the full join and returns all records from both the left and right tables.
 
 	**Answer : ?**
 
@@ -259,12 +257,13 @@
 
 	**Answer : ?**
 
-7. MaxCompute SQL provides the EXPLAIN operation. What does the execution result include?
+7. Which of the following limitations in MaxCompute SQL are correct?
 
-	A. All resource structures corresponding to the DML sentence.  
-	B. The dependency structure of all Tasks corresponding to the DML sentence.  
-	C. The dependency structure of all Operators in a Task.  
-	D. The dependency structure of all Tasks in a Task.
+	A. Table name length  
+	B. Table column definition  
+	C. Table partition level and single table partition number  
+	D. Window function number  
+	E. Table name and field definition case
 	
 	**Answer : ?**
 
@@ -296,53 +295,3 @@
 	E. SELECT region AS r FROM sale_detail DISTRIBUTE BY region;
 	
 	**Answer : ?**
-
-11. Which JOIN operations in MaxCompute SQL are correct?
-
-	A. MaxCompute's JOIN supports multiple links, and it also supports Cartesian product.  
-	B. Left join returns all records from the left table.  
-	C. Right outer join returns all records from the right table.  
-	D. Full outer join indicates the full join and returns all records from both the left and right tables.
-
-	**Answer : ?**
-
-12. Which UNION ALL statements in MaxCompute SQL are correct?
-
-	A. Combines two or multiple data sets returned by a SELECT operation into one data set. If the result contains duplicated rows, all rows that meet the conditions are returned, and deduplication of duplicated rows is not applied.  
-	B. MaxCompute does not support union two main query results, but you can do it on two subquery results.  
-	C. The columns of each subquery corresponding to the UNION ALL operation must be listed, not supporting \*.  
-	D. The number, names, and types of queried columns corresponding to the UNION ALL/UNION operation must be consistent.
-	
-	**Answer : ?**
-
-13. Group by is for group query in MaxCompute SQL. Which of the following queries of Group by are correct?
-
-	A. Generally "group by" and aggregate functions are used together.  
-	B. The key of "group by" can be the column name of the input table.  
-	C. When SELECT contains aggregate functions, "group by" can be an expression consisting of columns of input tables.  
-	D. When SELECT contains aggregate functions, "group by" can be the alias of the output column of the SELECT statement.
-
-	**Answer : ?**
-
-14. Which of the following limitations in MaxCompute SQL are correct?
-
-	A. Table name length  
-	B. Table column definition  
-	C. Table partition level and single table partition number  
-	D. Window function number  
-	E. Table name and field definition case
-	
-	**Answer : ?**
-
-15. Which of the following statements are correct?
-
-	A. "ORDER BY" must be used together with "LIMIT".  
-	B. When sorting with "ORDER BY", NULL is considered smaller than any value.  
-	C. DISTRIBUTE BY is to make hash slices of data according to the values of a certain column. It is similar to GROUP BY.  
-	D. SORT BY and ORDER BY are all used for sorting in essence, the difference is that the scope is not the same.  
-	E. The key of ORDER BY or SORT BY must be the output column of the SELECT sentences, that is, the alias of the column.
-
-	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/select-syntax?spm=a2c63.p38356.0.0.3cdf233b6vJGDj)
-
-	**Answer : A, C, D ..?**
-
