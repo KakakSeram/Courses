@@ -216,6 +216,28 @@
 	
 	**Answer : C**
 
+19. MaxCompute SQL uses a syntax similar to SQL. Which statement is correct?
+
+	A. MaxCompute SQL extended standard SQL  
+	B. MaxCompute can be equivalent to a database.  
+	C. The maximum SQL length allowed in MaxCompute varies with the environment resources that are applied.  
+	D. MaxCompute SQL is suitable for massive data (GB, TB, EB level), off-line batch calculation scenarios.
+
+	Explaination:
+
+	![19a](./images/19a.png)
+
+	**Answer : D**
+
+20. Suppose table t_dml only has one field named id (type is string). Which MaxCompute SQL query cannot be executed correctly?
+	
+	A. CREATE TABLE t_dml_bak LIKE t_dml;
+	B. INSERT INTO TABLE t_dml SELECT '1900-01-01 00:00:00' FROM dual;
+	C. INSERT OVERWRITE TABLE t_dml SELECT * FROM dual;
+	D. UPDATE TABLE t_dml SET id='a';
+
+	**Answer : D**
+
 ## Multiple Answer
 
 1. Which of the following descriptions about the MaxCompute SQL constraint conditions are correct?
@@ -251,7 +273,7 @@
 	C. When mapjoin references to a small table or subquery, alias should be referenced, otherwise it will report syntax errors.  
 	D. Right outer join returns all records in the right table, even if there is no matched record in the left table.
 
-	**Answer : ?**
+	**Answer : B, C & D ?**
 
 4. Which UNION ALL statements in MaxCompute SQL are correct?
 
@@ -260,7 +282,7 @@
 	C. The columns of each subquery corresponding to the UNION ALL operation must be listed, not supporting \*.  
 	D. The number, names, and types of queried columns corresponding to the UNION ALL/UNION operation must be consistent.
 
-	**Answer : ?**
+	**Answer : A, B & D ?**
 
 5. Which JOIN operations in MaxCompute SQL are correct?
 
@@ -277,10 +299,10 @@
 
 	A. All resource structures corresponding to the DML sentence.  
 	B. The dependency structure of all Tasks corresponding to the DML sentence.  
-	C. The dependency structure of all Operators in a Task.(TRUE)  
-	D. The dependency structure of all Tasks in a Task.(TRUE)
+	C. The dependency structure of all Operators in a Task.  
+	D. The dependency structure of all Tasks in a Task.
 
-	**Answer : C & D?**
+	**Answer : A, B & C?**
 
 7. Which of the following limitations in MaxCompute SQL are correct?
 
@@ -302,7 +324,7 @@
 	D. SORT BY and ORDER BY are all used for sorting in essence, the difference is that the scope is not the same.  
 	E. The key of ORDER BY or SORT BY must be the output column of the SELECT sentences, that is, the alias of the column.
 	
-	**Answer : ?**
+	**Answer : A, C, D & E ?**
 
 9. Group by is for group query in MaxCompute SQL. Which of the following queries of Group by are correct?
 
@@ -311,7 +333,7 @@
 	C. When SELECT contains aggregate functions, "group by" can be an expression consisting of columns of input tables.  
 	D. When SELECT contains aggregate functions, "group by" can be the alias of the output column of the SELECT statement.
 	
-	**Answer : ?**
+	**Answer : A, B & C ?**
 
 10. Which of the following queries can be executed?
 
@@ -321,4 +343,4 @@
 	D. SELECT region AS r FROM sale_detail ORDER BY region LIMIT 100;  
 	E. SELECT region AS r FROM sale_detail DISTRIBUTE BY region;
 	
-	**Answer : ?**
+	**Answer : C, D & E ?**
