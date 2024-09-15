@@ -35,7 +35,7 @@
 	C. UDF through evaluate signature to map UDF input/output type.  
 	D. UDAF through @Resolve annotation to get the signature.
 
-	**Answer : ?**
+	**Answer : B**
 
 5. Which one is an incorrect way to get signature from Java UDF?
 
@@ -53,7 +53,7 @@
 	C. UDF framework can load Jar packets automatically.  
 	D. After adding the Jar package, this UDF is ready for use.
 
-	**Answer : ?**
+	**Answer : C?**
 
 7. Which limitation is not related to UDTF?
 
@@ -62,7 +62,7 @@
 	C. It can be used in where filtering conditions.  
 	D. No support use with distribute by together in same SELECT clause.
 
-	**Answer : ?**
+	**Answer : C ?**
 
 8. UDTF (User Defined Table Valued Function) is used to solve scenarios which output multi-line data by a function call. It is also the only UDF which can return multiple fields.
 
@@ -70,6 +70,43 @@
 	B. False
 
 	**Answer : ?**
+
+9. The NULL value in SQL is represented by a NULL reference in Java. Therefore, Java primitive types are not allowed because they cannot represent a NULL value in SQL.
+
+	A. True  
+	B. False
+
+	**Answer : A**
+
+10. Which one is not included in MaxCompute user-defined functions?
+
+	A. UDF  
+	B. UDAF  
+	C. UDGF  
+	D. UDTF
+
+	**Answer : C**
+
+11. When developing UDFs in MaxCompute, the corresponding data type and return data type in Java are objects, and the initial letter must be capitalized.
+
+	A. True  
+	B. False
+
+	**Answer : A**
+
+12. UDF outputs a return value at a time, while UDTF can output more than two records at one time.
+
+	A. True  
+	B. False
+
+	**Answer : A?**
+
+13. For UDAF (User Defined Aggregation Function), input and output have a many-for-one relationship.
+
+	A. True  
+	B. False
+
+	**Answer : A**
 
 ## Multiple Answer
 
@@ -80,7 +117,7 @@
 	C. SELECT * FROM t_test WHERE myudf_lower(name) = 'bdps';  
 	D. SELECT * FROM t_test WHERE myudf_lower(myudf_lower(name)) = 'zzzz';
 
-	**Answer : ?**
+	**Answer : A, C & D ?**
 
 2. Which of the following UDF (user-defined function) statements in MaxCompute are correct?
 
@@ -126,4 +163,50 @@
 	C. @Resolve() defines the function input/output parameters data type.  
 	D. When invoking UDTF, the input parameter can be not consistent with @Resolve definition.
 
-	**Answer : ?**
+	**Answer : C ?**
+
+7. Which of the following UDTF statements are correct?
+
+	A. It does not support the use with group by together in the same SELECT clause.  
+	B. It supports the use with distribute by together in the same SELECT clause.  
+	C. Supports other expressions in the same SELECT clause.  
+	D. It does not support the use with sort by together in the same SELECT clause.
+
+	**Answer : A, C & D?**
+
+8. Which UDF implementation logic statements are correct?
+
+	A. To implement UDF, the class com.aliyun.odps.udf.UDF must be inherited and the evaluate method must be applied.  
+	B. The parameter type and return value type of the evaluate method is considered as UDF signature in SQL.  
+	C. To call UDF, the framework must match the correct evaluate method according to the parameter type called by UDF.  
+	D. The evaluate method must be a static public method.  
+	E. User can implement multiple evaluate methods in UDF.
+
+	**Answer : A, B, C & E ?**
+
+9. Which UDAF implementation logic statements are correct?
+
+	A. The main logic of UDAF relies on these three interfaces: iterate, merge, and terminate.  
+	B. To implement UDAF we need to inherit the com.aliyun.odps.udf.Aggregator class.  
+	C. Need to implement interfaces. Eg setup, newBuffer, iterate, terminate, merge, close, and so on.  
+	D. Don't support user-defined Writable buffer
+
+	**Answer : A, B & C ?**
+
+10. Which of the following ways of UDTF usage in SQL are correct?
+
+	A. SELECT user_udtf(col0, col1, col2) AS (co, c1) FROM my_table;  
+	B. SELECT user_udtf(col0, col1, col2) AS (co, c1), col3 FROM my_table;  
+	C. SELECT user_udtf(col0, col1, col2) AS (co, c1) FROM (SELECT * FROM my_table DISTRIBUTE BY key SORT BY key) t;  
+	D. SELECT reduce_udtf(col0, col1, col2) AS (co, c1) FROM (SELECT col0, col1, col2 FROM (SELECT map_udtf(a0, a1, a2, a3) AS (col0, col1, col2) FROM my_table) t1 DISTRIBUTE BY col0 SORT BY col0, col1) t2;
+
+	**Answer : A, B & C ?**
+
+11. Which of the following UDF (user-defined function) statements in MaxCompute are correct?
+
+	A. Function input and output are one to one.  
+	B. Return a scalar value of a specified type.  
+	C. Cannot be used with other functions.  
+	D. It can be used in WHERE filtering conditions.
+
+	**Answer : A, B & D ?**

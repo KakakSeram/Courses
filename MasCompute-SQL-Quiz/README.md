@@ -205,9 +205,9 @@
 
 18. Which calculation is incorrect in MaxCompute SQL?
 
-	A. If A or B is NULL, A+B returns NULL; otherwise, returns A + B.
-	B. If A or B is NULL, A\*B returns NULL; otherwise, returns A * B.
-	C. axb like a%b = TRUE
+	A. If A or B is NULL, A+B returns NULL; otherwise, returns A + B.  
+	B. If A or B is NULL, A\*B returns NULL; otherwise, returns A * B.  
+	C. axb like a%b = TRUE  
 	D. A % B: If A or B is NULL, return NULL; otherwise, return the result of A mod B.
 
 	[Explaination:](https://www.alibabacloud.com/help/en/maxcompute/user-guide/operator?spm=a2c63.p38356.0.0.201b23b5MM2Dd7#section-ycc-chl-vdb)
@@ -231,9 +231,9 @@
 
 20. Suppose table t_dml only has one field named id (type is string). Which MaxCompute SQL query cannot be executed correctly?
 	
-	A. CREATE TABLE t_dml_bak LIKE t_dml;
-	B. INSERT INTO TABLE t_dml SELECT '1900-01-01 00:00:00' FROM dual;
-	C. INSERT OVERWRITE TABLE t_dml SELECT * FROM dual;
+	A. CREATE TABLE t_dml_bak LIKE t_dml;  
+	B. INSERT INTO TABLE t_dml SELECT '1900-01-01 00:00:00' FROM dual;  
+	C. INSERT OVERWRITE TABLE t_dml SELECT * FROM dual;  
 	D. UPDATE TABLE t_dml SET id='a';
 
 	**Answer : D**
