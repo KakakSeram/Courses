@@ -9,7 +9,7 @@
 	C. Visitor  
 	D. Project administrator
 
-	**Answer : B ?**
+	**Answer : B**
 
 2. Which of these functions is not provided by DataWorks?
 	
@@ -18,7 +18,7 @@
 	C. Built-in Workflow Editor  
 	D. Monitoring and Alarms
 
-	**Answer : A ?**
+	**Answer : A**
 
 3. Which of these permissions is NOT granted to the OAM role in DataWorks?
 	
@@ -27,7 +27,7 @@
 	C. Maintenance users can create workflows.  
 	D. Maintenance users have online maintenance permissions.
 
-	**Answer : B ?**
+	**Answer : B**
 
 4. Which of these is NOT a type of object within a DataWorks project?
 	
@@ -36,28 +36,28 @@
 	C. Job  
 	D. Workflow
 
-	**Answer : B ?**
+	**Answer : B**
 
 5. Alibaba Cloud DataWorks only works with MaxCompute.
 	
 	A. True  
 	B. False
 
-	**Answer : B ?**
+	**Answer : B**
 
 6. Workflows in DataWorks have a type of node called a "Zero-load Node" which does no work but can be used to indicate the start of a Workflow or to connect other Nodes together.
 	
 	A. True  
 	B. False
 
-	**Answer : B ?**
+	**Answer : B**
 
 7. The "Developer" role in DataWorks can add other users to a Workspace, as long as they are also assigned the "Developer" role.
 
 	A. True  
 	B. False
 
-	**Answer : B ?**
+	**Answer : B**
 
 8. Which of these is NOT a permission that DataWorks grants to the Developer role?
 	
@@ -66,14 +66,14 @@
 	C. Developers can create new script files and new UDF functions.  
 	D. Developers can publish packages.
 
-	**Answer : B ?**
+	**Answer : B**
 
 9. When using MaxCompute with DataWorks, it is possible to create and run multiple types of jobs on top of MaxCompute, including MaxCompute SQL Jobs, MapReduce Jobs, and Spark jobs.
 	
 	A. True  
 	B. False
 
-	**Answer : A ?**
+	**Answer : A**
 
 10. Which of these is NOT a time interval supported by DataWorks?
 	
@@ -82,7 +82,7 @@
 	C. Quarterly  
 	D. Monthly
 
-	**Answer : C ?**
+	**Answer : C**
 
 11. Which of these statements about the Project administrator role in DataWorks is correct?
 	
@@ -91,7 +91,7 @@
 	C. The Project administrator does not have permission to edit Workflows  
 	D. The Project administrator can add users to a Workspace, but not remove them
 
-	**Answer : B ?**
+	**Answer : B**
 
 ## Multiple Answer
 
@@ -102,7 +102,7 @@
 	C. Buy a third party debugging tool  
 	D. Use the MaxCompute command-line tool to run your code instead of DataWorks
 
-	**Answer : A & B ?**
+	**Answer : A & B**
 
 2. Which of these are good reasons to choose Standard Mode over Basic Mode, when setting up a new DataWorks Workspace? (Number of correct answers: 2)
 	
@@ -111,7 +111,7 @@
 	C. Workspaces in Standard Mode allow developers to test code first before deploying it into production  
 	D. Code runs faster in Standard Mode
 
-	**Answer : A & C ?**
+	**Answer : A & C**
 
 3. Which of these statements about MaxCompute is true? (Number of correct answers: 2)
 	
@@ -120,7 +120,7 @@
 	C. MaxCompute has its own SQL language dialect, called "ODPS SQL" or sometimes "MaxCompute SQL"  
 	D. MaxCompute is the same thing as Hadoop Hive
 
-	**Answer : B & C ?**
+	**Answer : B & C**
 
 4. Which of these are "compute engines" that DataWorks can work with? (Number of correct answers: 3)
 	
