@@ -2,7 +2,7 @@
  
 |No.|Name|Description|
 |---|----|-----------|
-|1.|[Alibaba Cloud - MaxCompute UDF Modul](./Alibaba-MaxCompute-UDF-Modul/README.md)|Alibaba Cloud MaxCompute User-Defined Functions|
+|1.|[Alibaba Cloud - MaxCompute UDF Modul](./Alibaba-MaxCompute-UDF-Modul/README.md)|Alibaba Cloud MaxCompute User-Defined Functions Modul|
 |2.|[Alibaba Cloud - DataWorks Basic Knowledge Quiz](./Alibaba-DataWorks-Basic-Quiz/README.md)|Alibaba Cloud DataWorks Basic Knowledge Quiz Compilation|
 |3.|[Alibaba Cloud - MaxCompute Basic Knowledge Quiz](./Alibaba-MaxCompute-Basic-Quiz/README.md)|Alibaba Cloud MaxCompute Basic Knowledge Quiz Compilation|
 |4.|[Alibaba Cloud - SQL Basic Quiz](./Alibaba-SQL-Basic-Quiz/README.md)|Alibaba Cloud SQL Basic Knowledge Quiz Compilation|
