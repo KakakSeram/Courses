@@ -5,7 +5,7 @@
 |1.|[MaxCompute UDF Modul](./Alibaba-MaxCompute-UDF-Modul/README.md)|Alibaba Cloud MaxCompute User-Defined Functions Modul|
 |2.|[DataWorks Basic Knowledge Quiz](./Alibaba-DataWorks-Basic-Quiz/README.md)|Alibaba Cloud DataWorks Basic Knowledge Quiz Compilation|
 |3.|[MaxCompute Basic Knowledge Quiz](./Alibaba-MaxCompute-Basic-Quiz/README.md)|Alibaba Cloud MaxCompute Basic Knowledge Quiz Compilation|
-|4.|[SQL Basic Quiz](./Alibaba-SQL-Basic-Quiz/README.md)|Alibaba Cloud SQL Basic Knowledge Quiz Compilation|
+|4.|[MySQL Basic Quiz](./Alibaba-MySQL-Basic-Quiz/README.md)|Alibaba Cloud MySQL Basic Knowledge Quiz Compilation|
 |5.|[MasCompute SQL Quiz](./Alibaba-MasCompute-SQL-Quiz/README.md)|Alibaba Cloud MaxCompute SQL Quiz Compilation|
 |6.|[MaxCompute UDF Quiz](./Alibaba-MaxCompute-UDF-Quiz/README.md)|Alibaba Cloud MaxCompute UDF Quiz Compilation|
 |7.|[PAI Quiz](./Alibaba-PAI-Quiz/README.md)|Alibaba Cloud PAI Quiz Compilation|
