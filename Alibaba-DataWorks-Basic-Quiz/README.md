@@ -122,16 +122,7 @@
 
 	**Answer : B & C ?**
 
-4. Which of these are techniques you can use to debug DataWorks Workflows, if they fail to run? (Number of correct answers: 2)
-	
-	A. Look at the logs for the failed node(s) in the workflow: they usually contain helpful information  
-	B. Step through your Workflow one node at a time, and use an Ad-hoc MaxCompute SQL node to check the table(s) output by each step to ensure there are no data quality issues  
-	C. Buy a third party debugging tool  
-	D. Use the MaxCompute command-line tool to run your code instead of DataWorks
-
-	**Answer : A & B ?**
-
-5. Which of these are "compute engines" that DataWorks can work with? (Number of correct answers: 3)
+4. Which of these are "compute engines" that DataWorks can work with? (Number of correct answers: 3)
 	
 	A. MaxCompute  
 	B. HBase  
