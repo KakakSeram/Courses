@@ -45,14 +45,12 @@
 
 	**Answer : A**
 
-6. In Quick BI, a portal is also called a data product, which is a set of dashboards that contain?
-
-	A. Menus  
-	B. Template  
-	C. External links  
-	D. iFrame
-
-	**Answer : ?**
+6. When using a geo chart, select a geo bubble chart if the maximum and minimum of the measure are separated by a big gap. This statement is?
+	
+	A. Incorrect  
+	B. Correct
+	
+	**Answer : B**
 
 7. A dataset (father height, son height) describes the father height and son height. Which charts are suitable for displaying whether the two are correlated?
 	
@@ -103,13 +101,6 @@
 	D. Funnel chart
 
 	**Answer : C**
-
-13. When using a geo chart, select a geo bubble chart if the maximum and minimum of the measure are separated by a big gap. This statement is?
-	
-	A. Incorrect  
-	B. Correct
-	
-	**Answer : B**
 
 ## Multiple Answer
 
