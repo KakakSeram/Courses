@@ -11,15 +11,12 @@
 
 	**Answer : B**
 
-2. The main functions of MaxCompute include：()
+2. MaxCompute is suitable for dealing with massive data, and the amount of data reaches TB, PB and EB level.
 	
-	A. Data channel  
-	B. Data visualization  
-	C. Data computing and storing   
-	D. Security service   
-	E. Develop SDK 
+	A. True  
+	B. False
 
-	**Answer : A, C, D & E**
+	**Answer : A**
 
 3. Project space is the basic computing unit of MaxCompute.
 
@@ -172,13 +169,6 @@
 
 	**Answer : D**
 
-22. MaxCompute is suitable for dealing with massive data, and the amount of data reaches TB, PB and EB level.
-	
-	A. True  
-	B. False
-
-	**Answer : A**
-
 ## Multiple Answer
 
 1. What are the layers of MaxCompute functional structures?
@@ -255,3 +245,13 @@
 	E. Resource management
 
 	**Answer : ?**
+
+9. The main functions of MaxCompute include：()
+	
+	A. Data channel  
+	B. Data visualization  
+	C. Data computing and storing   
+	D. Security service   
+	E. Develop SDK 
+
+	**Answer : A, C, D & E**
