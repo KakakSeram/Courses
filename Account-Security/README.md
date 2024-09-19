@@ -88,4 +88,4 @@
 	C. RAM roles  
 	D. ECS instances
 
-	**Answer : A, B & C*
+	**Answer : A, B & C**
