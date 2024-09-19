@@ -10,3 +10,5 @@
 |6.|[MaxCompute UDF Quiz](./Alibaba-MaxCompute-UDF-Quiz/README.md)|Alibaba Cloud MaxCompute UDF Quiz Compilation|
 |7.|[PAI Quiz](./Alibaba-PAI-Quiz/README.md)|Alibaba Cloud PAI Quiz Compilation|
 |8.|[Quick BI Quiz](./Alibaba-QuickBI-Quiz/README.md)|Alibaba Cloud Quick BI Quiz Compilation|
+|9.|[ACA Big Data Exam](./ACA-BigData-Exam/README.md)|Alibaba Cloud Associate Big Data Exam|
+|10.|[Account Security Quiz](./Account-Security/README.md)|Alibaba Cloud Account Security Quiz|
