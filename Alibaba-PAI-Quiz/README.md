@@ -1,4 +1,4 @@
-# Alibaba Cloud PAI Quiz Compilation
+# Alibaba Cloud Quiz - PAI
 
 ## Single Answer
 

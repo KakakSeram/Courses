@@ -1,4 +1,4 @@
-# Alibaba Cloud MaxCompute UDF Quiz Compilation
+# Alibaba Cloud Quiz - MaxCompute UDF
 
 ## Single Answer
 

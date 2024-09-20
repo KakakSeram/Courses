@@ -1,4 +1,4 @@
-# Alibaba Cloud MaxCompute Basic Knowledge Quiz Compilation
+# Alibaba Cloud Quiz - MaxCompute Basic Knowledge
 
 ## Single Answer
 

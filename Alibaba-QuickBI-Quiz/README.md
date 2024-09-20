@@ -1,4 +1,4 @@
-# Alibaba Cloud Quick BI Quiz Compilation
+# Alibaba Cloud Quiz - Quick BI
 
 ## Single Answer
 

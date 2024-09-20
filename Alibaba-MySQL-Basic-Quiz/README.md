@@ -1,4 +1,4 @@
-# Alibaba Cloud MySQL Basic Knowledge Quiz Compilation
+# Alibaba Cloud Quiz - MySQL Basic Knowledge
 
 ## Single Answer
 
