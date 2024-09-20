@@ -12,3 +12,4 @@
 |8.|[Quick BI Quiz](./Alibaba-QuickBI-Quiz/README.md)|Alibaba Cloud Quick BI Quiz Compilation|
 |9.|[ACA Big Data Exam](./ACA-BigData-Exam/README.md)|Alibaba Cloud Associate Big Data Exam|
 |10.|[Account Security Quiz](./Account-Security/README.md)|Alibaba Cloud Account Security Quiz|
+|11.|[Practices for Security Quiz](./Practices-for-Security/README.md)|Alibaba Cloud Best Practices for Security on the Cloud Quiz|
