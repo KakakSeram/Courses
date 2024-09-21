@@ -11,5 +11,6 @@
 |7.|[PAI Quiz](./Alibaba-PAI-Quiz/README.md)|Alibaba Cloud Quiz - PAI|
 |8.|[Quick BI Quiz](./Alibaba-QuickBI-Quiz/README.md)|Alibaba Cloud Quiz - Quick BI|
 |9.|[ACA Big Data Exam](./ACA-BigData-Exam/README.md)|Alibaba Cloud Exam - ACA Big Data|
-|10.|[Account Security Quiz](./Account-Security-Quiz/README.md)|Alibaba Cloud Quiz - Account Security|
-|11.|[Practices for Security Quiz](./Practices-for-Security-Quiz/README.md)|Alibaba Cloud Quiz - Best Practices for Security on the Cloud|
+|10.|[Account Security Quiz](./Alibaba-Account-Security-Quiz/README.md)|Alibaba Cloud Quiz - Account Security|
+|11.|[Practices for Security Quiz](./Alibaba-Practices-for-Security-Quiz/README.md)|Alibaba Cloud Quiz - Best Practices for Security on the Cloud|
+|12.|[Network Security Quiz](./Alibaba-Network-Security-Quiz/README.md)|Alibaba Cloud Quiz - Network Security|
