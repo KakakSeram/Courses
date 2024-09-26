@@ -14,3 +14,4 @@
 |10.|[Account Security Quiz](./Alibaba-Account-Security-Quiz/README.md)|Alibaba Cloud Quiz - Account Security|
 |11.|[Practices for Security Quiz](./Alibaba-Practices-for-Security-Quiz/README.md)|Alibaba Cloud Quiz - Best Practices for Security on the Cloud|
 |12.|[Network Security Quiz](./Alibaba-Network-Security-Quiz/README.md)|Alibaba Cloud Quiz - Network Security|
+|13.|[Basics of Cloud Security Quiz](./Alibaba-Basics-Cloud-Security-Quiz/README.md)|Alibaba Cloud Quiz - Basics of Cloud Security|
