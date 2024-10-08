@@ -16,3 +16,4 @@
 |12.|[Network Security Quiz](./Alibaba-Network-Security-Quiz/README.md)|Alibaba Cloud Quiz - Network Security|
 |13.|[Basics of Cloud Security Quiz](./Alibaba-Basics-Cloud-Security-Quiz/README.md)|Alibaba Cloud Quiz - Basics of Cloud Security|
 |14.|[Cloud Security at the Workspace Quiz](./Alibaba-Cloud-Security-Workspace-Quiz/README.md)|Alibaba Cloud Quiz - Cloud Security at the Workspace|
+|15.|[CI/CD Essentials Quiz](./Alibaba-CICD-Essentials-Quiz/README.md)|Alibaba Cloud Quiz - CI/CD Essentials|
