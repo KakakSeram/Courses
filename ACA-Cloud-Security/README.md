@@ -253,7 +253,7 @@
 	C. TXT Record  
 	D. MX Record
 	
-	**Answer : A**
+	**Answer : B**
 
 29. Which of the following options could NOT be the reason that causes website tampering?
 
