@@ -253,7 +253,7 @@
 	C. TXT Record  
 	D. MX Record
 	
-	**Answer : B**
+	**Answer : A**
 
 29. Which of the following options could NOT be the reason that causes website tampering?
 
@@ -262,7 +262,7 @@
 	C. System vulnerability is not fixed in time  
 	D. Wrong security configuration
 	
-	**Answer : B**
+	**Answer : A**
 
 30. Which of the following statements about WAF is NOT true?
 
